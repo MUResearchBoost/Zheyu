@@ -1,6 +1,6 @@
 
 
-class Engineering:
+class Faculty:
     personal_info = dict()
 
     def __init__(self):

@@ -1,11 +1,11 @@
 import scrapy
 from MU_faculty.items import MuFacultyItem
 from scrapy import Request
-from MU_faculty.Faculty import Engineering
+from MU_faculty.Artemis import Faculty
 
 
-class QuotesSpider(scrapy.Spider):
-    name = "faculty_members"
+class EngineeringSpider(scrapy.Spider):
+    name = "engineering_faculty_members"
     allowed_domain = ['engineering.missouri.edu']
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/'
@@ -18,7 +18,7 @@ class QuotesSpider(scrapy.Spider):
         yield Request(url, headers=self.headers)
 
     def parse(self, response):
-        members = Engineering()
+        members = Faculty()
         item = MuFacultyItem()
         people = response.xpath('//div[@class = "vc_grid vc_row vc_grid-gutter-30px vc_pageable-wrapper vc_hook_hover"]')
         individuals = people.xpath('./div[@class = "vc_pageable-slide-wrapper vc_clearfix"]')

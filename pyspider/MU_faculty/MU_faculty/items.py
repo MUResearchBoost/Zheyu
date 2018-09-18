@@ -18,3 +18,9 @@ class MuFacultyItem(scrapy.Item):
     prof_phone = scrapy.Field()
     prof_department = scrapy.Field()
 
+
+class PublicationCollection(scrapy.Item):
+    name = scrapy.Field()
+    pub_list = list()
+
+

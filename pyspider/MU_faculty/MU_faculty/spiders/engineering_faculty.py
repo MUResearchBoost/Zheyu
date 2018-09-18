@@ -39,9 +39,9 @@ class EngineeringSpider(scrapy.Spider):
 
             members.edit_info(item['prof_page'][0], item['prof_name'], item['prof_department'], item['prof_title'], item['prof_email'], item['prof_phone'])
 
-        filename = "member_list.txt"
-        with open(filename, 'w') as f:
-            for link in members.personal_info['page']:
+        filename = "member_name_list.txt"
+        with open(filename, 'w', encoding='utf-8') as f:
+            for link in members.personal_info['name']:
                 f.write(link)
                 f.write('\n')
         self.log('Saved file %s' % filename)

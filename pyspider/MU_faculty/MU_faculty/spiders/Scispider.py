@@ -4,7 +4,6 @@ from scrapy import Request
 from MU_faculty.Artemis import ReadFile
 from MU_faculty.Artemis import Paper
 from MU_faculty.Artemis import ClusteringPaper
-from urllib.parse import urlparse
 import csv
 
 
@@ -40,6 +39,10 @@ class ScienceDirect(scrapy.Spider):
             i = {'name': self.namelist[k]}
             yield Request(url, headers=self.headers, meta={"faculty": i}, callback=self.index_page_parse)
 
+    def special_characters(self, s):
+        m = s.decode('utf-8')
+        return m
+
     def index_page_parse(self, response):
         next_page = response.xpath('//*[@id="main_content"]/main/div[1]/div[2]/div[3]/div[2]/ol/li[2]/a/@href').extract()
         contents = response.xpath('//*[@id="main_content"]/main/div[1]/div[2]/div[2]/ol/li')
@@ -49,8 +52,9 @@ class ScienceDirect(scrapy.Spider):
             paper = Paper()
             faculty_member_name = Dorian_Gray['name']
             journal_name = each_paper.xpath('./div[1]/ol/li[1]/a/span/text()').extract_first()
-            paper_title0 = each_paper.xpath('./h2[@id]/a[@href]')
-            paper_title = paper_title0.xpath('string(.)').extract()[0]
+            w = each_paper.xpath('./h2[@id]/a[@href]//text()').extract()
+          #  print(w)
+            paper_title = self.special_characters(''.join(each_paper.xpath('./h2[@id]/a[@href]//text()').extract()))
             paper_source = ''.join(each_paper.xpath('./div[1]/ol//text()').extract())
             author_list = ''.join(each_paper.xpath('./ol[2][@class]//text()').extract())
             paper_preview = each_paper.xpath('./div[2]')
@@ -78,13 +82,15 @@ class ScienceDirect(scrapy.Spider):
         a = response.meta['key']
         paper = a['paper']
         abstract_root = response.xpath('//*[@id="abstracts"]')
-        abstract = abstract_root.xpath('./div/div/p/text()').extract()
+        abstract = ''.join(abstract_root.xpath('./div/div/p//text()').extract())
         paper.abstract = abstract
 
-        filename = "science_direct.csv"
-        with open(filename, 'a+', encoding='utf-8', newline='') as f:
+        t1 = paper.title
+
+        filename = "science_direct11.csv"
+        with open(filename, 'a+', newline='') as f:
             if paper is not None:
-                print(paper.title)
+                #print(paper.title)
                 writer = csv.writer(f)
                 writer.writerow([paper.title, paper.author, paper.source, paper.abstract])
                 f.close()

@@ -2,6 +2,7 @@ import scrapy
 from MU_faculty.items import MuFacultyItem
 from scrapy import Request
 from MU_faculty.Artemis import Faculty
+import csv
 
 
 class EngineeringSpider(scrapy.Spider):
@@ -39,9 +40,25 @@ class EngineeringSpider(scrapy.Spider):
 
             members.edit_info(item['prof_page'][0], item['prof_name'], item['prof_department'], item['prof_title'], item['prof_email'], item['prof_phone'])
 
-        filename = "member_name_list.txt"
-        with open(filename, 'w', encoding='utf-8') as f:
-            for link in members.personal_info['name']:
-                f.write(link)
-                f.write('\n')
-        self.log('Saved file %s' % filename)
+       # filename = "member_name_list.txt"
+        #with open(filename, 'w', encoding='utf-8') as f:
+         #   for link in members.personal_info['name']:
+          #      f.write(link)
+           #     f.write('\n')
+        #self.log('Saved file %s' % filename)
+
+        filename2 = 'affiliation.txt'
+        with open(filename2, 'w', encoding='utf-8') as f2:
+            for affiliation in members.personal_info['title']:
+                f2.write(affiliation)
+                f2.write('\n')
+        self.log('Saved file %s' % filename2)
+
+'''  filename1 = "engineer_faculty.csv"
+        with open(filename1, 'a+', newline='',encoding='utf-8') as f1:
+            writer = csv.writer(f1)
+            for (name, title, department, page, email, phone) in zip(members.personal_info['name'], members.personal_info['title'], members.personal_info['department'], members.personal_info['page'], members.personal_info['email'], members.personal_info['phone']):
+                #print(name, title, department, page, email, phone)
+                writer.writerow([name, title, department, page, phone, email])
+            f1.close()
+        self.log('Saved file %s' % filename1)'''

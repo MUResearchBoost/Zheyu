@@ -1,4 +1,4 @@
-
+import csv
 # used to store info of professors
 
 
@@ -52,6 +52,25 @@ class ReadFile:
                 modified_name.append(letter)
         return ''.join(modified_name)
 
+    def get_affiliation(self, address):
+        w = dict()
+        name = list()
+        affiliation = list()
+        with open(address, 'r') as f:
+            reader = csv.reader(f)
+            for rows in reader:
+                if len(rows) == 2:
+                    name.append(rows[0])
+                    affiliation.append(rows[1])
+                elif len(rows) == 1:
+                    name.append(rows[0])
+                    affiliation.append('None')
+                elif len(rows) > 2:
+                    name.append(rows[0])
+                    affiliation.append(rows[1] + rows[2])
+        w['name'] = name
+        w['affiliation'] = affiliation
+        return w
 
 # used for describe papers
 class Paper:

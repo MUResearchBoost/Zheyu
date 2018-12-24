@@ -1,6 +1,29 @@
 import csv
+import json
+import re
 # used to store info of professors
 
+# get rid of special punctuation
+def remove_duplicateid(authors):
+    for person in authors:
+        author = person
+    return author
+
+def filtering_words(text):
+    s = re.sub("[\'\\\\/\"\\n]", "", text)
+    return s
+
+def differentiate_affiliation(affiliation):
+    mu = ['University of Missouri', 'Mizzou', 'University of Missouri-Columbia']
+    if int(affiliation['affiliation-id']) != 60006173:
+        notice = 0
+    else:
+        for element in mu:
+            if affiliation['affiliation-name'].find(element) != -1:
+                notice = 1
+            else:
+                notice = 0
+    return notice
 
 class Faculty:
     personal_info = dict()
@@ -12,6 +35,8 @@ class Faculty:
         self.personal_info['email'] = list()
         self.personal_info['phone'] = list()
         self.personal_info['name'] = list()
+        self.personal_info['author_id'] = None
+        self.personal_info['eid'] = None
 
     def edit_info(self, page, name, department, title, email, phone):
         self.personal_info['page'].append(page)
@@ -20,6 +45,14 @@ class Faculty:
         self.personal_info['email'].append(email)
         self.personal_info['phone'].append(phone)
         self.personal_info['name'].append(name)
+
+    def id_edit(self, i, j):
+        if j == 'author_id':
+            self.personal_info['author_id'] = i
+            return 0
+        else:
+            self.personal_info['eid'] = i
+            return 1
 
     def restore_data(self, data, filename):
         with open(filename, 'w') as f:
@@ -33,7 +66,6 @@ class Faculty:
 
 class ReadFile:
     name = list()
-
     def txt(self, address):
         with open(address, 'r', encoding='utf-8') as file:
             line = file.readline()
@@ -74,7 +106,101 @@ class ReadFile:
 
 # used for describe papers
 class Paper:
+    def IEEE_data(self, result):
+        data = result
+        collection = list()
+        keys = ['article_number', 'publication_number']
+        value = [data['article_number'], data['publication_number']]
+        otherid = dict(zip(keys, value))
+        maintitle = data['title']
+        subtitle = 'None'
+        abstact_content = filtering_words(data['abstract'])
+        content = 'None'
+        references = list()
+        references.append("None")
+        #url_key = ['pdf_url', 'abstract_url']
+        #url_value = [data['pdf_url'], data['abstract_url']]
+        original_url = data['pdf_url']
+        citation = list()
+        citation.append('None')
+        for terms_type in data['index_terms'].values():
+            #i = terms_type
+            #j = terms_type['terms']
+            for terms in terms_type['terms']:
+                collection.append(terms)
+        publishdate = ''
+        submitdate = ''
+        #publishdata = data['conference_dates']
+        #submitdate = data['conference_dates']
+        publisher =list()
+        for author_list in data['authors'].values():
+            for author in author_list:
+                publisher.append(author['full_name'])
+        language = 'English'
+        publication_type = data['content_type']
+        keys_entire = ['otherId', 'mainTitle', 'subTitle', 'abstractContent', 'content', 'references', 'originUrl',
+                       'citation', 'collections', 'publishDate', 'submitDate', 'publisher', 'language', 'publicationType']
+        value_entire = [otherid, maintitle, subtitle, abstact_content, content, references, original_url, citation, collection, publishdate, submitdate, publisher, language, publication_type]
+        data_modified = dict(zip(keys_entire, value_entire))
+        return data_modified
+
+    def scopus_data(self, data):
+        collection = list()
+        item = data['item']
+        bibrecord = item['bibrecord']
+        item_info = bibrecord['item-info']
+        itemid = item_info['itemid']
+        keys = ['ce:pii', 'ce:doi']
+        value = [itemid['ce:pii'], itemid['ce:doi']]
+        otherid = dict(zip(keys, value))
+
+        head = bibrecord['head']
+        maintitle = head['citation-title']
+        subtitle = 'None'
+        abstact_content = filtering_words(head['abstracts'])
+        content = 'None'
+        references = list()
+        references.append("None")
+        # url_key = ['pdf_url', 'abstract_url']
+        # url_value = [data['pdf_url'], data['abstract_url']]
+        coredata = data['coredata']
+        links = coredata['link']
+        firsthref = links[0]
+        originUrl = firsthref['@href']
+
+        citation = list()
+        citation.append('None')
+
+
+        subjectareas = data['subject-areas']
+        subjectarea = subjectareas['subject-area']
+        for area in subjectarea:
+            collection.append(area['$'])
+
+        publishdate = ''
+        submitdate = ''
+        # publishdata = data['conference_dates']
+        # submitdate = data['conference_dates']
+
+        publisher = list()
+        author = data['authors']
+        for a in author.value():
+            preferred_name = a['preferred_name']
+
+        language = 'English'
+        publication_type = coredata['subtypeDescription']
+
+        keys_entire = ['otherId', 'mainTitle', 'subTitle', 'abstractContent', 'content', 'references', 'originUrl',
+                       'citation', 'collections', 'publishDate', 'submitDate', 'publisher', 'language',
+                       'publicationType']
+        value_entire = [otherid, maintitle, subtitle, abstact_content, content, references, originUrl, citation,
+                        collection, publishdate, submitdate, publisher, language, publication_type]
+        data_modified = dict(zip(keys_entire, value_entire))
+
+
+
     def __init__(self):
+        self.paper_list = list()
         self.title = None
         self.author = None
         self.abstract = None
@@ -82,6 +208,7 @@ class Paper:
         self.page_link = None
         self.journal_name = None
         self.faculty = None
+
 
     def get_new_paper(self, title, author, abstract, source, link, journal, faculty):
         self.title = title
@@ -119,4 +246,5 @@ class ClusteringPaper(Paper):
             return self.personal_collection
         else:
             return self.journal_collection
+
 

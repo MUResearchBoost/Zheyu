@@ -13,13 +13,15 @@ BOT_NAME = 'MU_faculty'
 
 SPIDER_MODULES = ['MU_faculty.spiders']
 NEWSPIDER_MODULE = 'MU_faculty.spiders'
-
+DOWNLOAD_DELAY = 10
+RANDOMIZE_DOWNLOAD_DELAY = True
+ROBOTSTXT_OBEY = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'MU_faculty (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 CONCURRENT_REQUESTS = 128

@@ -4,9 +4,28 @@
     <list default="true" id="3c28c223-529c-4f81-ab61-92557e1b4d16" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/Scispider.py" beforeDir="false" afterPath="$PROJECT_DIR$/MU_faculty/spiders/Scispider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/science_direct.csv" beforeDir="false" afterPath="$PROJECT_DIR$/science_direct.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MU_faculty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MU_faculty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/0member_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/Artemis.py" beforeDir="false" afterPath="$PROJECT_DIR$/MU_faculty/Artemis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/affiliation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/affiliation1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/engineer_faculty.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/member_name_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/MU_faculty/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MU_faculty/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/IEEEspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/MU_faculty/spiders/IEEEspider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/Scispider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/engineer_faculty.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/member_name_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MU_faculty/spiders/te.py" beforeDir="false" afterPath="$PROJECT_DIR$/MU_faculty/spiders/te.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineering_member_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/journalism_member_list.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/science_direct.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/science_direct11.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/science_direct2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,80 +35,154 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MU_faculty$k.coverage" NAME="k Coverage Results" MODIFIED="1537282273181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
-    <SUITE FILE_PATH="coverage/MU_faculty$run.coverage" NAME="run Coverage Results" MODIFIED="1537283694096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty" />
+    <SUITE FILE_PATH="coverage/MU_faculty$transenddata.coverage" NAME="transenddata Coverage Results" MODIFIED="1540068832993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
+    <SUITE FILE_PATH="coverage/MU_faculty$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1542126155046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
+    <SUITE FILE_PATH="coverage/MU_faculty$run.coverage" NAME="run Coverage Results" MODIFIED="1542310007832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty" />
     <SUITE FILE_PATH="coverage/MU_faculty$qq.coverage" NAME="qq Coverage Results" MODIFIED="1537260251163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
+    <SUITE FILE_PATH="coverage/MU_faculty$scidata.coverage" NAME="scidata Coverage Results" MODIFIED="1542105924710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
+    <SUITE FILE_PATH="coverage/MU_faculty$te.coverage" NAME="te Coverage Results" MODIFIED="1540493392408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
+    <SUITE FILE_PATH="coverage/MU_faculty$settings.coverage" NAME="settings Coverage Results" MODIFIED="1542174808328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty" />
+    <SUITE FILE_PATH="coverage/MU_faculty$trysomething.coverage" NAME="trysomething Coverage Results" MODIFIED="1542193380796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MU_faculty/spiders" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="870392937">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="1" />
-          <entry key="py" value="9" />
+          <entry key="csv" value="6" />
+          <entry key="json" value="5" />
+          <entry key="py" value="80" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="JSON" value="5" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="Python" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="217" />
+          <entry key="json" value="4" />
+          <entry key="py" value="6310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="217" />
+          <entry key="JSON" value="4" />
+          <entry key="Python" value="6310" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="603169238">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="1" />
+          <entry key="py" value="5" />
+          <entry key="view" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="Python" value="5" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="728" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="728" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/Scispider.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/scidata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1148">
-              <caret line="56" column="116" selection-start-line="56" selection-start-column="116" selection-end-line="56" selection-end-column="116" />
+            <state relative-caret-position="830">
+              <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/t.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/qq.py">
+        <entry file="file://$PROJECT_DIR$/MU_faculty/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="135">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/journalism_faculty.py">
+        <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/transenddata.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MU_faculty/Artemis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1542312605307" expanded="true" signature="134:205" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,6 +197,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -112,6 +210,20 @@
       <list>
         <option value="$PROJECT_DIR$/MU_faculty/spiders/Scispider.py" />
         <option value="$PROJECT_DIR$/MU_faculty/spiders/qq.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/jsonlize.py" />
+        <option value="$PROJECT_DIR$/test.json" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/transenddata.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/IEEEspider.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/view" />
+        <option value="$PROJECT_DIR$/MU_faculty/run.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/settings.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/test.json" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/trysomething.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/te.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/Artemis.py" />
+        <option value="$PROJECT_DIR$/MU_faculty/spiders/scidata.py" />
+        <option value="$PROJECT_DIR$/recommendation/LDA.py" />
+        <option value="$PROJECT_DIR$/recommendation/LSTM_classifier.py" />
       </list>
     </option>
   </component>
@@ -122,10 +234,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3872" />
-    <option name="height" value="2092" />
+    <option name="x" value="-20" />
+    <option name="y" value="-20" />
+    <option name="width" value="3875" />
+    <option name="height" value="2095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,17 +252,6 @@
               <item name="MU_faculty" type="b2602c69:ProjectViewProjectNode" />
               <item name="MU_faculty" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MU_faculty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MU_faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="MU_faculty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MU_faculty" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MU_faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="MU_faculty" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -160,7 +261,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../cs8725/code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../recommendation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -178,6 +279,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.run">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+      <module name="MU_faculty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\onedrive\missouricoursework\research\pyspider\MU_faculty\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty/spiders" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/spiders/scidata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="k" type="PythonConfigurationType" factoryName="Python">
       <module name="MU_faculty" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,29 +323,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qq" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MU_faculty" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/spiders/qq.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python">
       <module name="MU_faculty" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,15 +345,133 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scidata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MU_faculty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/spiders/scidata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MU_faculty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="te" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MU_faculty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/spiders/te.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="transenddata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MU_faculty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/spiders/transenddata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="trysomething" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MU_faculty" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MU_faculty/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MU_faculty/spiders/trysomething.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.k" />
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.qq" />
+      <item itemvalue="Python.transenddata" />
+      <item itemvalue="Python.te" />
+      <item itemvalue="Python.scidata" />
+      <item itemvalue="Python.settings" />
+      <item itemvalue="Python.trysomething" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python.qq" />
+        <item itemvalue="Python.trysomething" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.scidata" />
+        <item itemvalue="Python.te" />
+        <item itemvalue="Python.transenddata" />
       </list>
     </recent_temporary>
   </component>
@@ -272,27 +491,28 @@
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25683647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974505" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917848" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997319" weight="0.39773372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974505" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33031163" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49919572" visible="true" weight="0.4181303" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5008043" side_tool="true" weight="0.41699716" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="918" height="1892" id="Documentation" order="4" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,67 +523,169 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MU_faculty/spiders/Scispider.py</url>
-          <line>57</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="result['search-results']['entry'][0]['dc:identifier']" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/test.py" />
-    <entry file="file://$PROJECT_DIR$/MU_faculty/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/twisted/internet/defer.py">
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/t.csv" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/qq.py" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/jsonlize.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/json/__init__.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/codecs.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/json/decoder.py" />
+    <entry file="file://$PROJECT_DIR$/test.json" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="662" selection-start-line="662" selection-end-line="662" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/twisted/internet/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="908" selection-start-line="908" selection-end-line="908" />
+        <state relative-caret-position="765">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/twisted/internet/task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="671" selection-start-line="671" selection-end-line="671" />
+        <state relative-caret-position="606">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/journalism_faculty.py">
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/twisted/internet/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="181">
+          <caret line="1266" selection-start-line="1266" selection-end-line="1266" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/t.csv">
+    <entry file="file://$PROJECT_DIR$/../venv/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29115">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/engineer_faculty.csv" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/engineering_faculty.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/Scispider.py">
+    <entry file="file://$PROJECT_DIR$/MU_faculty/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/journalism_faculty.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/view" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/affiliation1.txt" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/member_name_list.txt" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="56" column="116" selection-start-line="56" selection-start-column="116" selection-end-line="56" selection-end-column="116" />
+        <state relative-caret-position="-116" />
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/IEEEspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="42" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/engineer_faculty.csv" />
+    <entry file="file://$PROJECT_DIR$/science_direct.csv" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/0member_list.txt" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/affiliation.txt" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/Scispider.py" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/trysomething.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/te.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/twisted/internet/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="516" selection-start-line="516" selection-end-line="516" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1317">
+          <caret column="479939" selection-start-column="479939" selection-end-column="479939" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommendation/LDA.py" />
+    <entry file="file://$PROJECT_DIR$/recommendation/LSTM_classifier.py" />
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/scidata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/qq.py">
+    <entry file="file://$PROJECT_DIR$/MU_faculty/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="135">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/spiders/transenddata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MU_faculty/Artemis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1542312605307" expanded="true" signature="134:205" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
